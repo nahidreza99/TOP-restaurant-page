@@ -1,7 +1,7 @@
-const pageLoad = (()=>{
-    const contentContainer = document.getElementById('content');
-    const header = document.createElement('header');
-    header.innerHTML = `
+const pageLoad = (() => {
+  const contentContainer = document.getElementById('content');
+  const header = document.createElement('header');
+  header.innerHTML = `
     <nav>
         <h2 class="logo">Nahid's Restaurant</h2>
         <ul class="nav">
@@ -10,5 +10,5 @@ const pageLoad = (()=>{
             <li id="contact">Contact Us</li>
         </ul>
     </nav>`;
-    contentContainer.appendChild(header);
+  contentContainer.appendChild(header);
 })();
