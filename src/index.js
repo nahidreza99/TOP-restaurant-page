@@ -1,2 +1,2 @@
-import { pageLoad } from './page-load';
+import pageLoad from './page-load';
 import './style.css';

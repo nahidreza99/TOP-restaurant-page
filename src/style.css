@@ -1,3 +1,32 @@
-body{
-    background: url('./background.png');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header>nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav>li{
+  padding: 25px;
+  list-style: none;
+}
+
+.nav>li:hover{
+  cursor: pointer;
+  background-color: #ffa600;
+}
+
+@media only screen and (min-width: 1366px){
+  header{
+    padding: 50px 250px;
+  }
 }
