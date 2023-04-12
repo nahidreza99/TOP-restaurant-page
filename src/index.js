@@ -1,2 +1,6 @@
 import pageLoad from './page-load';
-import './style.css';
+import './styles/style.css';
+import homeLoader from './home';
+import './styles/home.css';
+
+homeLoader();
